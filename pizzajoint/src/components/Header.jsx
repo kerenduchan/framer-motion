@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 export function Header() {
     return (
@@ -19,9 +20,13 @@ export function Header() {
                     />
                 </svg>
             </div>
-            <div className="title">
+            <motion.div
+                className="title"
+                initial={{ y: -250 }}
+                animate={{ y: -10 }}
+            >
                 <h1>Pizza Joint</h1>
-            </div>
+            </motion.div>
         </header>
     )
 }
