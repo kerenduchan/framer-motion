@@ -1,8 +1,18 @@
-# React + Vite
+# Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This code is an updated version of this repo:
 
-Currently, two official plugins are available:
+https://github.com/iamshaunjp/framer-motion/tree/lesson-2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created using **vite** (`npm create vite@latest`) and uses an updated `router-dom`.
+
+## Usage
+
+```
+npm i
+npm run dev
+```
+
+Follow along with The Net Ninja's tutorial here:
+
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9iHDnQfTHEVVceOEBsOf07i
